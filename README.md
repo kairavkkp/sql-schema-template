@@ -23,18 +23,18 @@ Each file contains the SQL code to create the corresponding table, along with an
 ### `users` table
 The users table stores information about the users of the system. The table has the following columns:
 
-`id`: unique identifier for each user.
-`name`: name of the user.
-`email`: email address of the user.
-`password`: hashed password for the user's account.
+- `id`: unique identifier for each user.
+- `name`: name of the user.
+- `email`: email address of the user.
+- `password`: hashed password for the user's account.
 
 ### `orders` table
 The orders table stores information about the orders placed by the users. The table has the following columns:
 
-`id`: unique identifier for each order.
-`user_id`: foreign key referencing the id column in the users table.
-`order_date`: date the order was placed.
-`total_price`: total price of the order.
+- `id`: unique identifier for each order.
+- `user_id`: foreign key referencing the id column in the users table.
+- `order_date`: date the order was placed.
+- `total_price`: total price of the order.
 
 ### And so on..
 
